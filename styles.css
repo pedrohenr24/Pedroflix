@@ -1,0 +1,64 @@
+body {
+    color: #f0f0f0; /* Cor do texto */
+    background: #121212; /* Cor de fundo */
+    margin: 0;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px #ff5722; /* Nova cor da borda */
+    padding: 20px;
+    font-size: 32px;
+    color: #ff5722; /* Nova cor do texto */
+}
+
+.chamada {
+    background: #333333; /* Nova cor de fundo */
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff; /* Cor do texto */
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+    opacity: 0.7;
+    height: 200px;
+    transition: opacity 0.3s, transform 0.3s; /* Adicionado efeito de transição */
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid #ff5722; /* Nova cor da borda */
+    transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+}
+
+.categoria h2 {
+    color: #ff5722; /* Nova cor do título */
+}
